@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <h1>Create Your Meme</h1>
+    <span>Best place to make all your awesome Memes!</span>
+
+    <form id="memeform">
+        <p>
+            <label for="">Image URL:
+        <input type="url" id="imglink" placeholder="Enter image url here" name="memeimage">
+        </label>
+        </p>
+        <p>
+            <label for="">Text on Top:
+        <input type="text" id="toptext" placeholder="Enter text for top of meme" name="toptxt">
+        </label>
+        </p>
+        <p>
+            <label for="">Text on Bottom:
+        <input type="text" id="bottomtext" placeholder="Enter text for bottom of meme" name="bottomtxt">
+        </label>
+        </p>
+        <button type="submit">Create Meme</button>
+    </form>
+    
+        <section id="results"></section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

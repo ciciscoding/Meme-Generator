@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FC766AFF;
+}
+
+h1 {
+    color: #F1AC88FF;
+    background-color: #783937FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+span {
+    font-size: 100%;
+    text-align: center;
+    color: #F1AC88FF;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    color: #783937FF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+input {
+    padding-right: 10%;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+    left: 0px;
+    right: 0px;
+    top: 10px;
+}
+
+#results {
+    margin: auto;
+    width: 900px;
+    height: 450px;
+    background-image: element(img);
+    background-size: 100%;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+div {
+    left: 0;
+    right: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0 #000;
+}
+
+section {
+    padding: 10px 10px 10px 0px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=url], select, textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+button {
+    position: relative;
+    background-color: #783937FF;
+    color: #F1AC88FF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.delete {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: #F1AC88FF;
+}
+
+.top {
+    position: absolute;
+}
+
+.bottom {
+    position: relative;
+    bottom: 2em;
+}
